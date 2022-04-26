@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "service.config",
+      "type": "com.example.mobile.config.ServiceConfigProperties",
+      "sourceType": "com.example.mobile.config.ServiceConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "service.config.base-total-user-count",
+      "type": "java.lang.Integer",
+      "description": "用户总数基础数值",
+      "sourceType": "com.example.mobile.config.ServiceConfigProperties"
+    },
+    {
+      "name": "service.config.refresh-token-expire",
+      "type": "java.lang.Long",
+      "description": "refreshToken过期时间（秒）",
+      "sourceType": "com.example.mobile.config.ServiceConfigProperties"
+    },
+    {
+      "name": "service.config.token-expire",
+      "type": "java.lang.Long",
+      "description": "token过期时间（秒）",
+      "sourceType": "com.example.mobile.config.ServiceConfigProperties"
+    },
+    {
+      "name": "service.config.use-sms-code",
+      "type": "java.lang.Boolean",
+      "description": "是否使用短信验证码",
+      "sourceType": "com.example.mobile.config.ServiceConfigProperties"
+    }
+  ],
+  "hints": []
+}
