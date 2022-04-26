@@ -1,0 +1,70 @@
+{
+  "groups": [
+    {
+      "name": "qq.cert",
+      "type": "com.example.third.config.QqCertProperties",
+      "sourceType": "com.example.third.config.QqCertProperties"
+    },
+    {
+      "name": "service.config",
+      "type": "com.example.third.config.ServiceConfigProperties",
+      "sourceType": "com.example.third.config.ServiceConfigProperties"
+    },
+    {
+      "name": "wechat.cert",
+      "type": "com.example.third.config.WechatCertProperties",
+      "sourceType": "com.example.third.config.WechatCertProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "qq.cert.app-id",
+      "type": "java.lang.String",
+      "description": "应用ID",
+      "sourceType": "com.example.third.config.QqCertProperties"
+    },
+    {
+      "name": "qq.cert.app-secret",
+      "type": "java.lang.String",
+      "description": "应用密钥",
+      "sourceType": "com.example.third.config.QqCertProperties"
+    },
+    {
+      "name": "service.config.base-total-user-count",
+      "type": "java.lang.Integer",
+      "description": "用户总数基础数值",
+      "sourceType": "com.example.third.config.ServiceConfigProperties"
+    },
+    {
+      "name": "service.config.refresh-token-expire",
+      "type": "java.lang.Long",
+      "description": "refreshToken过期时间（秒）",
+      "sourceType": "com.example.third.config.ServiceConfigProperties"
+    },
+    {
+      "name": "service.config.token-expire",
+      "type": "java.lang.Long",
+      "description": "token过期时间（秒）",
+      "sourceType": "com.example.third.config.ServiceConfigProperties"
+    },
+    {
+      "name": "service.config.use-sms-code",
+      "type": "java.lang.Boolean",
+      "description": "是否使用短信验证码",
+      "sourceType": "com.example.third.config.ServiceConfigProperties"
+    },
+    {
+      "name": "wechat.cert.app-id",
+      "type": "java.lang.String",
+      "description": "应用ID",
+      "sourceType": "com.example.third.config.WechatCertProperties"
+    },
+    {
+      "name": "wechat.cert.app-secret",
+      "type": "java.lang.String",
+      "description": "应用密钥",
+      "sourceType": "com.example.third.config.WechatCertProperties"
+    }
+  ],
+  "hints": []
+}
